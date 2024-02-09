@@ -4,7 +4,7 @@ import sequelize from "../connection";
 UserModel.initModel(sequelize);
 
 export const db =  {
-    User:UserModel,
+    UserModel,
     sequelize  
 };
 
